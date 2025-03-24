@@ -1,0 +1,24 @@
+title: "AQBs Nest"
+description: "A modern web app powered by Jekyll and Bootstrap"
+author: "Aaqib"
+baseurl: ""  # Keep empty unless deploying in a subdirectory
+url: "https://aaqibassadulla.github.io/webApp" # Your GitHub Pages URL
+theme: minima
+
+# Directory Settings
+include:
+  - _includes
+  - _layouts
+  - assets
+exclude:
+  - node_modules
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+
+# Markdown & Permalink Settings
+markdown: kramdown
+permalink: pretty  # Removes .html from URLs
+
+github:
+  is_project_page: true
