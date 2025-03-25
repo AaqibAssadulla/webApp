@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="../../assets/css/styles.min.css" />
+</head>
+
+<body>
+  <div class="page-wrapper">
+    {% include sidebar.html %}  <!-- Sidebar -->
+    <div class="body-wrapper">
+      {% include header.html %}  <!-- Header -->
+      <div class="container-fluid">
+        {{ content }}  <!-- Page content here -->
+      </div>
+      {% include footer.html %}  <!-- Footer -->
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="../../assets/js/app.min.js"></script>
+  <script src="../../assets/js/dashboard.js"></script>
+</body>
+</html>
